@@ -11,5 +11,4 @@ module.exports = {
       // },
     })
   ),
-  distDir: 'out'
 };

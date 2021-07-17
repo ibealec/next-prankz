@@ -9,7 +9,11 @@
     "target": "es2020",
     "baseUrl": "./",
     "skipLibCheck": true,
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
@@ -20,9 +24,18 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "paths": {
-      "@components/*": ["components/*"]
+      "@components/*": [
+        "components/*"
+      ]
     }
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist", "**/*spec.ts"]
+  "include": [
+    "components/**/*",
+    "pages/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*spec.ts"
+  ]
 }
